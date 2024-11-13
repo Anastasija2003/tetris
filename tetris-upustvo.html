@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "upustvo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "igra.js"></script>
+</head>
+<body id = "sajt">
+    <div id = "zaglavlje">
+        <h2>TETRIS-uputstvo</h2>
+    </div>
+    <div id = "tekst">
+        <text>
+        Cilj igre Tetris je postići što veći rezultat tako što ćete slagati blokove na nacin tako da izmedju blokova ostane sto manje praznog prostora.
+        </text>
+        <hr>
+        <h3>Kako igrati:</h3>
+        1.Blokovi padaju s vrha ekrana prema dnu. Koristite dugmice(levo/desno) za horizontalno kretanje blokova i dugme dole za ubrzavanje pada blokova. Za rotaciju blokova, koristite dugme okreni.
+        <br>
+        2.Cilj je popuniti horizontalne linije blokovima. Kada uspete da napunite celu liniju, ona će se obrisati, a vi ćete osvojiti poene. Što više linija obrišete odjednom, više poena ćete dobiti.
+        <br>
+        3. Sa svakim novim nivoom, brzina kojom blokovi padaju će se povećavati, čineći igru sve težom.
+        <br>
+        4.Igra će završiti kada se blokovi nakupljaju do vrha ekrana i više ne možete složiti nove blokove bez da prekoračite gornju granicu ekrana.
+        <br>
+        <hr>
+    </div>
+    <div id = "podesavanja">
+        <h3>Izaberite pocetni nivo igre:</h3>
+        <button type = "button" id = "lako" class  = "nivo">Lako</button>
+        <br>
+        <br>
+        <button type = "button" id = "srednje" class = "nivo">Srednje</button>
+        <br>
+        <br>
+        <button type = "button" id = "tesko" class = "nivo">Tesko</button>
+        <br>
+    </div>
+    <div id = "polja">
+        <h4>Kliknite na figure koje zelite u igri</h4>
+        <p>(jednim klikom ih dodajete, a duplim klikom mozete da ih uklonite)</p>
+        <table>
+            <tr>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "plavo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "narandzasto"></td>
+                <td class = "belo"></td>
+                <td class = "zuto"></td>
+                <td class = "zuto"></td>
+            </tr>
+            <tr>
+                <td class = "svetloplavo"></td>
+                <td class = "svetloplavo"></td>
+                <td class = "svetloplavo"></td>
+                <td class = "svetloplavo"></td>
+                <td class = "belo"></td>
+                <td class = "plavo"></td>
+                <td class = "plavo"></td>
+                <td class = "plavo"></td>
+                <td class = "belo"></td>
+                <td class = "narandzasto"></td>
+                <td class = "narandzasto"></td>
+                <td class = "narandzasto"></td>
+                <td class = "belo"></td>
+                <td class = "zuto"></td>
+                <td class = "zuto "></td>
+            </tr>
+            <tr>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+            </tr>
+            <tr>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "zeleno"></td>
+                <td class = "zeleno"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "ljubicasto"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "crveno"></td>
+                <td class = "crveno"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+            </tr>
+            <tr>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "zeleno"></td>
+                <td class = "zeleno"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class ="ljubicasto"></td>
+                <td class = "ljubicasto"></td>
+                <td class = "ljubicasto"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+                <td class = "crveno"></td>
+                <td class = "crveno"></td>
+                <td class = "belo"></td>
+                <td class = "belo"></td>
+
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id = "linkovi">
+    <a href = "tetris-rezultati.html"><button type = "button" >Najbolji rezultati</button></a>
+    <br>
+    <br>
+    <a href = "tetris-igra.html"><button type = "button" id = "pocni">Pocni igru</button></a>
+    <br>
+    </div>
+</body>
+</html>
